@@ -1,0 +1,209 @@
+/* Основные */
+body {
+    max-width: 960px;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    background-color: cornsilk;
+}
+#logo {
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(36, 167, 187);
+}
+#footer {
+    margin-top: 50px;
+    height: 100px;
+}
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.title {
+    font-size: 2.6em;
+    font-weight: bold;
+    color: rgb(36, 167, 187);
+}
+.subtitle {
+    margin-bottom: 50px;
+    font-size: 1.6em;
+    color: rgb(36, 167, 187);
+}
+.lesson-title {
+    font-size: 2.6em;
+    font-weight: 600;
+    color: rgb(36, 167, 187);
+}
+.lesson-subtitle {
+    margin-top: 30px;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: rgb(36, 167, 187);
+}
+.url {
+    text-decoration: none;
+    color: rgb(36, 167, 187);
+}
+.lesson {
+    width: 380px;
+    height: 150px;
+    position: relative;
+    background: rgb(36, 167, 187);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+.example {
+    width: 380px;
+    height: 150px;
+    position: relative;
+    background: rgb(94, 180, 57);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+.homework {
+    width: 380px;
+    height: 150px;
+    position: relative;
+    background: rgb(255, 110, 110);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+.fact {
+    width: 380px;
+    height: 150px;
+    position: relative;
+    background: rgb(194, 94, 224);
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+.text {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.6em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.subtext {
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.block {
+    display: inline-block;
+    margin: 10px;
+}
+.error {
+    margin-top: 25px;
+    position: relative;
+}
+/* Эффекты плиток */
+.fade {
+    opacity: 0.7;
+}
+.fade:hover {
+    opacity: 1;
+}
+/* Оформление уроков */
+.exercise {
+    margin-top: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.rule {
+    background: rgb(255, 255, 110);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.warning {
+    background: rgb(255, 110, 110);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.attention {
+    background: rgb(255, 255, 255);
+    border: 1px dashed rgb(36, 167, 187);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.1;
+}
+th {
+    background: rgb(36, 167, 187);
+    border: 1px solid rgb(36, 167, 187);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+td {
+    border: 1px solid rgb(36, 167, 187);
+    padding: 7px 10px;
+}
+/* Спойлер */
+.spoiler {
+    background: rgb(94, 180, 57);
+    padding: 5px;
+    border-radius: 15px;
+}
+.sp-url {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sp-open {
+    display: none;
+}
+/* Важно для маленьких экранов */
+@media screen and (max-width: 768px) {
+    .lesson {
+        width: 90%;
+    }
+    .example {
+        width: 90%;
+    }
+    .homework {
+        width: 90%;
+    }
+    .fact {
+        width: 90%;
+    }
+    .attention {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 720px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+@media screen and (max-width: 420px) {
+    .text {
+        font-size: 2.1em;
+    }
+    .subtext {
+        font-size: 1.1em;
+    }
+}
