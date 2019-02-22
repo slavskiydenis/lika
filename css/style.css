@@ -48,37 +48,25 @@ body {
     text-decoration: none;
     color: rgb(36, 167, 187);
 }
-.lesson {
+/* Карточки главной страницы */
+.badge {
     width: 380px;
     height: 150px;
     position: relative;
-    background: rgb(36, 167, 187);
     transition: all 0.3s ease;
     border-radius: 15px;
+}
+.lesson {
+    background: rgb(36, 167, 187);
 }
 .example {
-    width: 380px;
-    height: 150px;
-    position: relative;
     background: rgb(94, 180, 57);
-    transition: all 0.3s ease;
-    border-radius: 15px;
 }
 .homework {
-    width: 380px;
-    height: 150px;
-    position: relative;
     background: rgb(255, 110, 110);
-    transition: all 0.3s ease;
-    border-radius: 15px;
 }
 .fact {
-    width: 380px;
-    height: 150px;
-    position: relative;
     background: rgb(194, 94, 224);
-    transition: all 0.3s ease;
-    border-radius: 15px;
 }
 .text {
     margin: 0;
