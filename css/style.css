@@ -48,6 +48,10 @@ body {
     text-decoration: none;
     color: rgb(36, 167, 187);
 }
+.answer {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
 /* Карточки главной страницы */
 .badge {
     width: 380px;
