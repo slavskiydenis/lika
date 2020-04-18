@@ -162,6 +162,11 @@ td {
     padding: 7px 10px;
 }
 /* Важно для маленьких экранов */
+@media screen and (max-width: 1080px) {
+    img {
+        width: 90%;
+    }
+}
 @media screen and (max-width: 768px) {
     .lesson {
         width: 90%;
@@ -176,9 +181,6 @@ td {
         width: 90%;
     }
     .attention {
-        width: 90%;
-    }
-    img {
         width: 90%;
     }
 }
