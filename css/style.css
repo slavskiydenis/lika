@@ -94,6 +94,9 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+.pix {
+    position: relative;
+}
 .block {
     display: inline-block;
     margin: 10px;
