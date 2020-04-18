@@ -162,7 +162,7 @@ td {
     padding: 7px 10px;
 }
 /* Важно для маленьких экранов */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 960px) {
     img {
         width: 90%;
     }
