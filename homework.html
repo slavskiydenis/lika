@@ -7,6 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
         <script src="https://use.fontawesome.com/42c79fe130.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
@@ -19,13 +20,79 @@
         <div class="title"><a class="url" href="index.html">Английский для Анжелики!</a></div>
         <div class="subtitle">Коротко и просто о самом важном!</div>
         <div class="lesson-title">Homework</div>
+        <div class="lesson-subtitle">Задание первой четверти (4 класс)</div>
         <div class="content exercise">
             <p class="rule"><i class="fa fa-info-circle" aria-hidden="true"></i>
                 По ссылке ниже - книжка <b>"Cinderella"</b> - <i><b>("Золушка")</b></i> в упрощённом варианте. Обязательно прочитать, выписать все незнакомые слова, и отработать произношение.
             </p>
             <p class="attention"><i class="fa fa-link" aria-hidden="true"></i>
-                <a class="url" href="/lika_eng/files/Cinderella.pdf"><u>Жми, чтобы скачать или открыть</u></a>.
+                <a class="url" href="files/Cinderella.pdf">Жми, чтобы скачать или открыть</a>.
             </p>
+        </div>
+        <div class="lesson-subtitle">Разбор песни "Dance Monkey"</div>
+        <div class="content exercise">
+            <p class="attention"><i class="fa fa-play-circle" aria-hidden="true"></i><a class="url" onclick="$('#one').slideToggle('slow');" href="javascript://">
+                Послушать песню</a>
+            </p>
+            <div id="one" style="display: none;">
+                <audio controls>
+                    <source src="files/dance_monkey.mp3" type="audio/mpeg">
+                        <p>Ваш браузер не поддерживает воспроизведение!</p>
+                </audio>
+            </div>
+            <p class="attention"><i class="fa fa-align-left" aria-hidden="true"></i><a class="url" onclick="$('#two').slideToggle('slow');" href="javascript://">
+                Показать текст песни</a>
+            </p>
+            <div id="two" style="display: none;">
+                <p>They say oh my god I see the way you shine<br>
+                Take your hand, my dear, and place them both in mine<br>
+                You know you stopped me dead while I was passing by<br>
+                And now I beg to see you dance just one more time</p>
+                <p>Ooh I see you, see you, see you every time<br>
+                And oh my I, I, I like your style<br>
+                You, you make me, make me, make me wanna cry<br>
+                And now I beg to see you dance just one more time</p>
+                <p>So they say<br>
+                Dance for me, dance for me, dance for me, oh, oh, oh<br>
+                I've never seen anybody do the things you do before<br>
+                They say move for me, move for me, move for me, ay, ay, ay<br>
+                And when you're done I'll make you do it all again</p>
+                <p>I said oh my god I see you walking by<br>
+                Take my hands, my dear, and look me in my eyes<br>
+                Just like a monkey I've been dancing my whole life<br>
+                But you just beg to see me dance just one more time</p>
+                <p>Ooh I see you, see you, see you every time<br>
+                And oh my I, I like your style<br>
+                You, you make me, make me, make me wanna cry<br>
+                And now I beg to see you dance just one more time</p>
+                <p>So they say<br>
+                Dance for me, dance for me, dance for me, oh, oh, oh<br>
+                I've never seen anybody do the things you do before<br>
+                They say move for me, move for me, move for me, ay, ay, ay<br>
+                And when you're done I'll make you do it all again</p>
+                <p>They say<br>
+                Dance for me, dance for me, dance for me, oh, oh, oh, oh, oh, oh, oh<br>
+                I've never seen anybody do the things you do before<br>
+                They say move for me, move for me, move for me, ay, ay, ay<br>
+                And when you're done I'll make you do it all again</p>
+                <p>Ooh<br>
+                Woah-oh, woah-oh, oh<br>
+                Ooh<br>
+                Ah ah, ah</p>
+                <p>They say<br>
+                Dance for me, dance for me, dance for me, oh, oh, oh<br>
+                I've never seen anybody do the things you do before<br>
+                They say move for me, move for me, move for me, ay, ay, ay<br>
+                And when you're done I'll make you do it all again</p>
+                <p>They say<br>
+                Dance for me, dance for me, dance for me, oh, oh, oh, oh, oh, oh, oh<br>
+                I've never seen anybody do the things you do before<br>
+                They say move for me, move for me, move for me, ay, ay, ay<br>
+                And when you're done I'll make you do it all again<br>
+                All again</p>
+                <p><i>Авторы: Toni Watson<br>
+                Текст песни "Dance Monkey", &copy; Warner Chappell Music, Inc</i></p>
+            </div>
         </div>
         <div id="footer">
             <p>&copy; 2020 Денис и Анжелика</p>
