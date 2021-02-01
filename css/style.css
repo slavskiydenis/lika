@@ -161,6 +161,12 @@ td {
     border: 1px solid rgb(36, 167, 187);
     padding: 7px 10px;
 }
+.td-rule {
+    background: rgb(255, 255, 110);
+}
+.td-center {
+    text-align: center;
+}
 /* Важно для маленьких экранов */
 @media screen and (max-width: 960px) {
     img {
